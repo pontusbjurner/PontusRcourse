@@ -37,3 +37,6 @@ ggplot(data=df, aes(x = Sepal.Length, y = Sepal.Width))+
   xlab("Sepal Length") +
   ylab("Sepal Width") +
   ggtitle("Sepal Length-Width")
+
+#9. Saving Library State:
+renv::snapshot()
